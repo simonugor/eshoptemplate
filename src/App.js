@@ -191,7 +191,7 @@ function App() {
           pantsStyle={pantsStyle}
         />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/eshoptemplate/">
             <Home changeStyle={changeStyle} data={productsData} productClick={productClick} />
           </Route>
           <Route exact path="/products">

@@ -65,7 +65,7 @@ const ProductPage = (props) => {
                     <button onClick={addToWishlist} className="add_to_wishlist">Add to Wishlist</button>
                     <button onClick={addToCart} className="add_to_cart">Add to Cart</button>
                     <br/>
-                    <Link to="/" onClick={props.goBack}>
+                    <Link to="/eshoptemplate/" onClick={props.goBack}>
                         <button className="back_button">Go Back</button>
                     </Link>
                 </div>

@@ -15,7 +15,7 @@ const Navbar2 = (props) => {
     return(
         <div className="navbar2_div">
             <div className="content2_div">
-                <Link onClick={setProductsStyle} className="link" to="/">
+                <Link onClick={setProductsStyle} className="link" to="/eshoptemplate/">
                     <nobr id="home" style={{color: props.homeStyle}} className="home">Home</nobr>
                 </Link>
 
