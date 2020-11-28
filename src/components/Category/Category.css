@@ -1,0 +1,36 @@
+.category_div {
+    width: 22vw;
+    height: 14vw;
+    border: 3px solid #15151d;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    background-position: top;
+    background-size: auto;
+    color: red;
+    font-family: mid;
+    font-size: 3.5vh;
+}
+
+.category_div:hover {
+    border: 3px solid red;
+}
+
+#tshirt {
+    background-image: url(../../images/tshirt.png);
+    background-size: 22vw;
+}
+
+#hoodie {
+    background-image: url(../../images/hoodie.png);
+    background-size: 22vw;
+}
+
+#pantsCollection {
+    background-image: url(../../images/pants.png);
+    background-size: 22vw;
+}

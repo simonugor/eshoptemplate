@@ -1,0 +1,27 @@
+.popup_container {
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup_div {
+    opacity: 0.7;
+    position: absolute;
+    z-index: 2;
+    width: 19vw;
+    height: 6vh;
+    background-color: white;
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    align-items: center;
+    font-size: 3.5vh;
+    font-family: light;
+}

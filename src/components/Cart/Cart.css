@@ -1,0 +1,30 @@
+.subdiv_cart {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+.cart_heading {
+    font-family: mid;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.checkout_button {
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 10vw;
+    height: 7vh;
+    font-family: light;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 2vh;
+    font-size: 2vh;
+}
+
+.checkout_button:hover {
+    border: 2px solid red;
+    color: red;
+}

@@ -1,0 +1,128 @@
+.product_page_subdiv {
+    width: 80vw;
+    margin: auto;
+    border-bottom: 3px solid red;
+}
+
+.product_page_heading {
+    font-family: bold;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.product_page_left {
+    margin-top: 4vh;
+    width: 40vw;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_page_right {
+    margin-top: 4vh;
+    width: 40vw;
+    float: left;
+    text-align: center;
+}
+
+.price_heading {
+    text-align: center;
+    font-family: mid;
+    font-size: 4vh;
+}
+
+.price {
+    text-align: center;
+    font-family: light;
+    font-size: 3vh;
+}
+
+.description_heading {
+    text-align: center;
+    font-family: mid;
+    font-size: 4vh;
+}
+
+.description {
+    text-align: center;
+    font-family: light;
+    font-size: 3vh;
+}
+
+.add_to_wishlist {
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 10vw;
+    height: 7vh;
+    font-family: light;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 3vh;
+    margin-right: 1vh;
+    font-size: 2vh;
+}
+
+.add_to_wishlist:hover {
+    border: 2px solid red;
+    color: red;
+}
+
+.add_to_wishlist:active {
+    background-color: gainsboro;
+}
+
+.add_to_cart {
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 10vw;
+    height: 7vh;
+    font-family: light;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 3vh;
+    margin-left: 1vh;
+    font-size: 2vh;
+}
+
+.add_to_cart:hover {
+    border: 2px solid red;
+    color: red;
+}
+
+.add_to_cart:active {
+    background-color: gainsboro;
+}
+
+.back_button {
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 10vw;
+    height: 7vh;
+    font-family: light;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 3vh;
+    margin-left: 1vh;
+    font-size: 2vh;
+}
+
+.back_button:hover {
+    border: 2px solid red;
+    color: red;
+}
+
+.back_button:active {
+    background-color: gainsboro;
+}
+
+.product_page_img {
+    width: 30vw;
+}

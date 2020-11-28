@@ -1,0 +1,31 @@
+.main_div {
+    width: 100vw;
+}
+
+.sub_div {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link_category {
+    margin: 0;
+    text-decoration: none;
+}
+
+.sub_div2 {
+    width: 80vw;
+    margin: auto;
+    font-family: mid;
+}
+
+.products_div {
+    width: 80vw;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
